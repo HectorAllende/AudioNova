@@ -1,0 +1,25 @@
+.footer {
+    height: 154px;
+    background-color: $gray-light-5;
+
+    @media screen and (max-width: 575.98px) {
+        height: 124px;
+    }
+
+    .footer_text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100%;
+        color: $gray-light;
+        gap: 0.5em;
+        font-size: 14px;
+
+        .footer_cookies {
+            a {
+                color: $gray-light;
+            }
+        }
+    }
+}
