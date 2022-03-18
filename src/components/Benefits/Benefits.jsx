@@ -24,8 +24,10 @@ const Benefits = () => {
                             <img src={speech} alt="icon" className='icon' />
                         </figure>
                     </div>
-                    <div className='contenedor_text'>
-                        <h2 className='benefits_text'>Unparalleled speech recognition</h2>
+                    <div className='contenedor_text cont_bene'>
+                    <h2 className='benefits_text cont_big'>Unparalleled speech recognition</h2> 
+                        <h2 className='benefits_text cont'>Unparalleled</h2>
+                        <h2 className='benefits_text cont'>speech recognition</h2>
                     </div>
                 </div>
                 <div className='benefits_content'>
